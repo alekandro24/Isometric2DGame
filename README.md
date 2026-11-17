@@ -7,3 +7,5 @@ Here is a quick overview of the features to implement:
   
 <img width="460" height="992" alt="Diagrama sin título drawio" src="https://github.com/user-attachments/assets/beaad4c3-1436-4d97-bdde-3a14e9a2da95" />
 
+## Assets & Credits
+* **Player Character Sprite:** [Hero Knight - Pixel Art](https://assetstore.unity.com/packages/2d/characters/hero-knight-pixel-art-165188) by Sven Thole (Unity Asset Store).
