@@ -188,7 +188,7 @@ MonoBehaviour:
   maxSpeed: 2
   idleDuration: 3
   detectionRange: 5
-  attackRange: 1
+  attackRange: 1.5
 --- !u!58 &3208176318651616269
 CircleCollider2D:
   m_ObjectHideFlags: 0
