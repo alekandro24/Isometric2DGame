@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cf72e2ccff6da921a23bc7c4420d378, type: 3}
-  m_Name: Grass shore
+  m_Name: grass shore
   m_EditorClassIdentifier: Assembly-CSharp::Mythryl.EdgeRuleTile
   m_DefaultSprite: {fileID: 3186030674884488, guid: 7b9c4f7cb78c98e6054ac28c2d5fe480, type: 3}
   m_DefaultGameObject: {fileID: 0}
