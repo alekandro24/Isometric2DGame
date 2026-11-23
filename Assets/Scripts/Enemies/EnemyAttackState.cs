@@ -12,7 +12,7 @@ public class EnemyAttackState : IEnemyState
 
     public void Enter()
     {
-        
+        Debug.Log("attack state");
     }
 
     public void Exit()
@@ -30,9 +30,11 @@ public class EnemyAttackState : IEnemyState
         if (controller.DistanceToPlayer() <= controller.AttackRange) 
         {
             Debug.Log("attacking the player");
+            controller.Animator.SetBool("IsAttacking", true);
         }
         else
         {
+            controller.Animator.SetBool("IsAttacking", false);
             controller.StateMachine.ChangeState(new EnemyChaseState(controller));
         }
     }

@@ -12,7 +12,7 @@ public class EnemyChaseState : IEnemyState
 
     public void Enter()
     {
-        
+        Debug.Log("chase state");
     }
 
     public void Exit()
@@ -31,7 +31,7 @@ public class EnemyChaseState : IEnemyState
         {
             controller.StateMachine.ChangeState(new EnemyAttackState(controller));
         }
-        else if (!controller.IsPlayerDetected)
+        else if (controller.DistanceToPlayer() > controller.DetectionRange)
         {
             controller.StateMachine.ChangeState(new EnemyPatrolState(controller));
         }

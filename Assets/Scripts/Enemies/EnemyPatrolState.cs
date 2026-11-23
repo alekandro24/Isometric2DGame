@@ -1,7 +1,9 @@
+using Pathfinding;
 using UnityEngine;
 
 public class EnemyPatrolState : IEnemyState
 {
+    
     private EnemyController controller;
     private Transform targetPatrolLocation;
 
@@ -17,6 +19,7 @@ public class EnemyPatrolState : IEnemyState
     public void Enter()
     {
         ChangePatrolPoint();
+        Debug.Log("patrol state");
     }
 
     public void Exit()
