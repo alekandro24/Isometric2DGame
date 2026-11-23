@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: a0ff4be34d717701d0893913246868df
+AssetOrigin:
+  serializedVersion: 1
+  productId: 416612
+  packageName: 2D Isometric Pixel Terrain Free - Mythryl Studio
+  packageVersion: 1.0
+  assetPath: Assets/Art/Environment/Pixel Terrain/64px/nature/sheets/pine-1.png
+  uploadId: 1018686
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -80,6 +87,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -96,7 +116,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -19, y: -86.5}
+        - {x: 3, y: -88.5}
+        - {x: 4, y: -52.5}
+        - {x: -13, y: -54.5}
       tessellationDetail: 0
       bones: []
       spriteID: 7024b25cfd02de5230dac7acf37ba590
@@ -175,7 +199,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ec7a3b4281f59f4fab38fe76c2324aa
     internalID: 0
     vertices: []
     indices: 
@@ -186,18 +210,11 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       pine-1_summer_0: 3920284713260450
-      pine-1_summer_90: 2402070335648563
       pine-1_summer_180: 399973561323959
       pine-1_summer_270: 3654208377855997
+      pine-1_summer_90: 2402070335648563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 416612
-  packageName: 2D Isometric Pixel Terrain Free - Mythryl Studio
-  packageVersion: 1.0
-  assetPath: Assets/Art/Environment/Pixel Terrain/64px/nature/sheets/pine-1.png
-  uploadId: 1018686
