@@ -16,6 +16,7 @@ public class EnemyIdleState : IEnemyState
     {
         controller.StopMovement();
         idleTimer = 0f;
+        Debug.Log("idle state");
     }
 
     //if the controller IsPlayerDetected is true, change the state of the enemy to chase state.
